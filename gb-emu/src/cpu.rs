@@ -4,6 +4,7 @@ use crate::peripherals::Peripherals;
 mod decode;
 mod fetch;
 mod instructions;
+mod operand;
 mod registers;
 
 #[derive(Default)]
