@@ -9,6 +9,7 @@ pub struct Registers {
     pub c: u8,
     pub d: u8,
     pub e: u8,
+    // フラグレジスタ．一部の演算命令において特定の状態になるとこのレジスタの指定のbit が1 になる．下位4 bit は使われておらず常に0
     pub f: u8,
     pub h: u8,
     pub l: u8,
